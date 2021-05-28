@@ -1,0 +1,11 @@
+click~=7.1.2
+colorama~=0.4.4
+pyyaml~=5.4.1
+setuptools~=52.0.0
+kfp~=1.4.0
+setuptools~=52.0.0
+coverage==4.3
+codeclimate-test-reporter==0.2.3
+typing_extensions~=3.7.4.3
+pyyaml~=5.4.1
+pytest

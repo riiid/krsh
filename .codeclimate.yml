@@ -1,0 +1,7 @@
+version: "2"
+checks:
+  return-statements:
+    enabled: false
+exclude_patterns:
+  - "tests/**/*.py"
+  - "krsh/**/templates/**/*.py"

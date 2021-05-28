@@ -1,0 +1,1 @@
+recursive-include krsh/cmd/group_create/templates *

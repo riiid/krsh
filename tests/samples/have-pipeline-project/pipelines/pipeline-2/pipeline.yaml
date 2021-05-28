@@ -1,0 +1,4 @@
+entry_point: pipeline.py
+name: pipeline-2
+namespaces:
+- test-ns-1

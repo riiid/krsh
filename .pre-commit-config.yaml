@@ -1,0 +1,27 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 19.10b0
+    hooks:
+      - id: black
+        language_version: python3
+        args:
+        - --config=.github/linters/.python-black
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.7.9
+    hooks:
+      - id: flake8
+        args:
+        - --config=.github/linters/.flake8
+
+  - repo: local
+    hooks:
+    - id: unittest
+      name: tests
+      entry: coverage run --source=./ -m unittest discover -p "test_*.py"
+      language: system
+      types: [python]
+      pass_filenames: false
+
+# pre-commit does not respect exclusion rules
+# because it runs on a copy of the files
+exclude: (^samples)|(^templates)
