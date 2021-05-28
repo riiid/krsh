@@ -11,9 +11,7 @@ setup(
     download_url="https://github.com/riiid/krsh/archive/master.zip",
     packages=find_packages(),
     long_description=long_description,
-    classifiers=[
-        "Programming Language :: Python :: 3"
-    ],
+    classifiers=["Programming Language :: Python :: 3"],
     include_package_data=True,
     keywords=["kubeflow", "krsh", "krsh"],
     install_requires=[],
