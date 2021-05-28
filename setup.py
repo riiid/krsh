@@ -12,8 +12,7 @@ setup(
     packages=find_packages(),
     long_description=long_description,
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: Apache 2.0",
+        "Programming Language :: Python :: 3"
     ],
     include_package_data=True,
     keywords=["kubeflow", "krsh", "krsh"],
