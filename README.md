@@ -1,3 +1,5 @@
+> :lollipop: KRSH is **Alpha** version, so many bugs can be reported. If you find a bug, please write an Issue and grow the project together!
+
 ![krsh](assets/logo.svg)
 
 <p align="center"> A declarative Kubeflow Management Tool inspired by <a href="https://github.com/hashicorp/terraform">Terraform</a></p>
