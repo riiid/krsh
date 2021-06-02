@@ -6,7 +6,7 @@
 
 ---
 
-**KRSH** (pronounce, krush) is a tool that allows you to declaratively manage Kubeflow's pipelines. By managing Kubeflow Pipeline through KRSH, developers can reduce the cost of managing Pipeline Versions and deploy pipelines much faster than ever before. KRSH is very much inspired by [Hashicorp's](https://www.hashicorp.com/) Terraform, which allows you to manage your Kubeflow Pipeline in a way similar to how Terraform manages Cloud declaratively. Similar to Terraform, KRSH can deploy pipelines through **Write, Plan, and Apply Cycle**. Also, since KRSH provides the KRSH Project Boilerplate through the `krsh create` command, the developer who develops the pipeline no longer needs to worry about which project structure to choose to manage the Kubeflow Pipeline.
+**KRSH** (pronounce, krush) is a tool that allows you to declaratively manage Kubeflow's pipelines. By managing Kubeflow Pipeline through KRSH, developers can reduce the cost of managing Pipeline Versions and deploy pipelines much faster than ever before. KRSH was greatly inspired by Terraform's behavior through Write, Plan, and Apply Cycle and its declarative management of resources. Also, since KRSH provides the KRSH Project Boilerplate through the `krsh create` command, the developer who develops the pipeline no longer needs to worry about which project structure to choose to manage the Kubeflow Pipeline.
 
 ## Usage
 
